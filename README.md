@@ -5,9 +5,7 @@ Projekt stanowi uproszczoną symulację propagacji fali dźwiękowej w dwuwymiar
 Środowisko symulacji:
 
 Przestrzeń reprezentowana jest przez dwuwymiarową macierz komórek.
-
 Na brzegach siatki umieszczane są „ściany” odbijające fale.
-
 W jednym z punktów inicjowane jest źródło fali dźwiękowej.
 
 #Model propagacji:
@@ -33,7 +31,7 @@ Projekt nie został w pełni dopracowany.
 
 Każda klatka zostaje zapisana do pliku Frames.txt, które są następnie odczytywane przez program Symulacja.py, który zamienia je na animację
 
-#Jeden impuls
+#Jeden impuls  
 ![Fale single](https://github.com/user-attachments/assets/2a6cccda-9ec0-4267-bd5d-325067af6d1d)
-#Sygnał ciągły
+#Sygnał ciągły  
 ![Fale continous](https://github.com/user-attachments/assets/ed3ffba4-a452-4d52-a049-000415ca3331)
