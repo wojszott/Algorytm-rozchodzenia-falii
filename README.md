@@ -13,13 +13,13 @@ W jednym z punktów inicjowane jest źródło fali dźwiękowej.
 Symulacja przebiega poklatkowo.
 Fala rozchodzi się w czterech głównych kierunkach (góra, dół, lewo, prawo).
 Każda komórka reprezentowana jest przez strukturę:
-
+```
 struct Fala {
     int id[4];            // identyfikatory kierunków
     float amp[4][2];      // amplitudy: [kierunek][pasywna/aktywna]
     int state[4][2];      // stany: 0 - brak, 1 - pasywny, 2 - aktywny
 };
-
+```
 ### Mechanizm aktualizacji:
 
 W każdej klatce symulacji obliczana jest suma aktywnych amplitud z sąsiednich komórek.
