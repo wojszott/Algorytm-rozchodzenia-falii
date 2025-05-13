@@ -35,3 +35,4 @@ Każda klatka zostaje zapisana do pliku Frames.txt, które są następnie odczyt
 ![Fale single](https://github.com/user-attachments/assets/2a6cccda-9ec0-4267-bd5d-325067af6d1d)  
 ## Sygnał ciągły  
 ![Fale continous](https://github.com/user-attachments/assets/ed3ffba4-a452-4d52-a049-000415ca3331)  
+
